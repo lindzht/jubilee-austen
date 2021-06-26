@@ -1,0 +1,267 @@
+/***** BASE STYLES *****/
+body {
+    color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+/***** GRID *****/
+
+.full-width {
+    overflow: auto;
+    margin: 0 auto;
+    width: 1200px;   
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+header {
+    background: url('../img/full-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1{
+    color: #bbc085;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+}
+
+
+/* Navigator */
+nav {
+    float: right;
+    padding: 75px 20px;
+    width: 700px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #828282;
+    font-size: 18px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;  
+}
+
+nav span{
+    color: #fa5a05;
+    font-family: 'Oswald', sans-serif;
+}
+
+header h2 {
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 945px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2{
+    font-family: 'Lola', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/***** WORK *****/
+
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 190px;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul{
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a{
+    color: #c49075;
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#contact ul{
+    list-style: none;
+}
+
+#contact ul li{
+    display: inline-block;
+}
+
+#contact ul img{
+    padding-right: 48px;
+}
+
+/***** LINDSAY HEADER *****/
+
+#lindsay-header {
+    background: url('../img/tarot-img-2.png') repeat;
+    background-position: bottom;
+    height: 800px;
+}
+
+#little-lindsay {
+    margin: 30px 0 0 0;
+    width: 200px;
+}
+
+#lindsay-header h2 {
+    clear: both;
+    color: #2b2b2b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 945px;
+}
+
+#lindsay-header h2 span {
+    background-color: #fae7a3;
+    text-decoration: underline;
+}
+
+
+/*  LINDSAY Navigator */
+#lindsay-header nav {
+    float: right;
+    padding: 75px 20px;
+    width: 700px;
+}
+
+#lindsay-header nav ul li {
+    display: inline-block;
+}
+
+#lindsay-header nav ul li a {
+    color: #2b2b2b;
+    font-size: 18px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;  
+    font-weight: 700;
+}
+
+#lindsay-header nav span{
+    background-color: #fae7a3;
+    color: #fa5a05;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+
+/***** LINDSAY CONTENT *****/
+
+#lindsay-main h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#lindsay-main {
+    padding: 20px 0 0 20px;
+}
+
+
+/***** LINDSAY FOOTER *****/
+
+#lindsay-main footer ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 30px;
+    image-orientation: inherit;
+}
